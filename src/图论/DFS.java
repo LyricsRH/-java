@@ -17,7 +17,7 @@ public class DFS {
         for(int i=1;i<nums;i++){
             dgks[i]=new DGraphLinK();
         }
-        //遍历data数组，将相邻点加入对应顶点link中
+        //遍历data数组，将相邻点加入对应顶点link中1
         for (int[] a :data) {
             dgks[a[0]].insert(a[1]);
         }
